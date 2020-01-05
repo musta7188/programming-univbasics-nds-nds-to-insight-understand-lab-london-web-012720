@@ -12,9 +12,12 @@ def print_first_directors_movie_titles
 
 index = 0
 
-while index < directors_database[0][:movies].length do
-puts directors_database[0][:movies][index][:title]
+movies_key = directors_database[0][:movies]
 
+while index < movies.length do
+title  = movies_key[index][:title]
+
+title
   index += 1
 end
 
