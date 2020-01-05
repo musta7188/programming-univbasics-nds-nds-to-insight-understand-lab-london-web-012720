@@ -19,5 +19,5 @@ title =  movies_key[index][:title]
 
   index += 1
 end
-puts tilte 
+puts title
 end
