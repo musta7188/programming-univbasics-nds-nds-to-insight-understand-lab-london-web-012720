@@ -15,9 +15,9 @@ index = 0
 movies_key = directors_database[0][:movies]
 
 while index < movies_key.length do
-print  movies_key[index][:title]
+title =  movies_key[index][:title]
 
   index += 1
 end
-
+puts tilte 
 end
