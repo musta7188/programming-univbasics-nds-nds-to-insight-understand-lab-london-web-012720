@@ -17,8 +17,8 @@ movies_key = directors_database[0][:movies]
 while index < movies.length do
 title  = movies_key[index][:title]
 
-title
+
   index += 1
 end
-
+title
 end
