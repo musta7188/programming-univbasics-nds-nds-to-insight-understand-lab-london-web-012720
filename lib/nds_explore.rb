@@ -20,5 +20,5 @@ title  = movies_key[index][:title]
 
   index += 1
 end
-title
+print title
 end
